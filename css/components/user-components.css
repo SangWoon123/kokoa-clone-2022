@@ -1,0 +1,84 @@
+body {
+  background-color: background-color: #ffffff;
+}
+
+.user-component {
+  display: flex;
+  margin-bottom: 10px;
+}
+.user-component {
+  justify-content: space-between;
+}
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+.katalk_img img {
+  background-color: white;
+}
+
+.user-component__avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
+.user-component__title {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.user-component__subtitle {
+  margin-top: 8px;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.user-component__avatar--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+.user-component__title--not-bold {
+  font-weight: 400;
+}
+
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.user-component__time {
+  margin-bottom: 5px;
+  display: block;
+}
+
+.user-component__text {
+  position: relative;
+}
+
+.user-component__point {
+  width: 15px;
+  height: 15px;
+  border: 2px solid RGB(255, 106, 90);
+  color: RGB(255, 106, 90);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: -30px;
+  bottom: 0px;
+  font-weight: 800;
+  font-size: 16px;
+}
