@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Nunito&family=Roboto:ital,wght@0,100;0,300;1,100&family=Smooch+Sans:wght@100&display=swap");
 
 @import "reset.css";
 @import "variables.css";
@@ -23,7 +24,7 @@
 @import "components/no-mobile.css";
 body {
   color: #2e363e;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Nanum Pen Script", cursive;
   height: 200vh;
 }
 

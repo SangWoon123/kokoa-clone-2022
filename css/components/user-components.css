@@ -3,6 +3,7 @@
 }
 .user-component {
   justify-content: space-between;
+  margin-bottom: 25px;
 }
 .user-component,
 .user-component__column:first-child {
@@ -11,8 +12,8 @@
 }
 
 .user-component__avatar {
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   border-radius: 30px;
   margin-right: 20px;
 }
